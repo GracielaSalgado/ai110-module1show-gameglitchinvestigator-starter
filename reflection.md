@@ -45,11 +45,15 @@ I asked my AI tool to generate a pytest and to specifically target the bug to se
 
 ## 4. What did you learn about Streamlit and state?
 
+I learned that every time you interact with a button or a box or checking a box it runs the entire script from top to bottom. A rerun is how the app remembers things across those reruns. Without it it would wipe everything.
+
 - How would you explain Streamlit "reruns" and session state to a friend who has never used Streamlit?
 
 ---
 
 ## 5. Looking ahead: your developer habits
+
+To try and problem solve the bug myself or to pin point where exactly the bug is. I also want to start creating tests to make sure that my code fixed it. This project definitly helped changed the way I use AI and use AI generated code. 
 
 - What is one habit or strategy from this project that you want to reuse in future labs or projects?
   - This could be a testing habit, a prompting strategy, or a way you used Git.
