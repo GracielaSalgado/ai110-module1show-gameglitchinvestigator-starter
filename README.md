@@ -25,19 +25,22 @@ It wrote the code, ran away, and now the game is unplayable.
 
 ## 📝 Document Your Experience
 
-- [ ] Describe the game's purpose.
-- [ ] Detail which bugs you found.
-- [ ] Explain what fixes you applied.
+The game's purpose is to be a fun guessing game. The main bugs that were found were the game not restarting which was fixed by adding and changing the session stats info. The second bug was the hint being incorrect and out of range which was fixed to match the range. 
+
+- [X] Describe the game's purpose.
+- [X] Detail which bugs you found.
+- [X] Explain what fixes you applied.
 
 ## 📸 Demo Walkthrough
 
 Describe your fixed game in numbered steps so a reader can follow along without watching a video:
 
-1. <!-- Describe this step -->
-2. <!-- Describe this step -->
-3. <!-- Describe this step -->
-4. <!-- Describe this step -->
-5. <!-- Add more steps as needed -->
+1. Player enters guess 20
+2. Game returns "too low"
+3. User enters a guess of 40
+4. Game returns "Too High"
+5. Score updates correctly after each guess
+6. Game ends after the user puts in the correct guess/ 
 
 **Screenshot** *(optional)*: <!-- Insert a screenshot of your fixed, winning game here -->
 
@@ -48,6 +51,8 @@ Describe your fixed game in numbered steps so a reader can follow along without 
 # pytest tests/
 # ========================= X passed in 0.XXs =========================
 ```
+
+================================================== 7 passed in 0.01s ===================================================
 
 ## 🚀 Stretch Features
 
